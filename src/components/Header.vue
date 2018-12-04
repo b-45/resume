@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="header">
     <div class="name">Bernard</div>
     <div class="title">Frontend Engineer</div>
     <div class="items flex">
