@@ -4,6 +4,7 @@
     <Header />
     <ExperienceOne />
     <ExperienceTwo />
+    <ExperienceThree />
 
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from "./components/Header.vue";
 import ExperienceOne from "./components/ExperienceOne.vue";
 import ExperienceTwo from "./components/ExperienceTwo.vue";
+import ExperienceThree from "./components/ExperienceThree.vue";
 
 export default {
   name: "app",
   components: {
     Header,
     ExperienceOne,
-    ExperienceTwo
+    ExperienceTwo,
+    ExperienceThree
   }
 };
 </script>
