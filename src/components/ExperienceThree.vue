@@ -4,6 +4,7 @@
     <div>
       <div class="company">{{experience.company}}</div>
       <div class="role">{{experience.role}}</div>
+      <div class="location">{{experience.location}}</div>
       <div class="period">{{experience.period}}</div>
     </div>
     <ul>
@@ -25,10 +26,10 @@ export default {
         company: "Kira Farms",
         role: "Technical Project Manager",
         location: "Lagos, Nigeria",
-        website: "www.kirafarms.com",
         period: "start - end",
         descriptions: [
-          "Coordinated the planning, budgeting, and scheduling of hardware procurement and - development of 5- acre Greenhouse farm.",
+          "Assisted founders with implementation approach and deployment strategy for 5-acre Greenhouse farm.",
+          "Working with local and international stakeholders to organize various activities necessary to coordinated planning, procure hardware, labor and other resources.",
           "Developed strategies to achieve objectives in implementation and execution of the project."
         ]
       }

@@ -4,6 +4,7 @@
     <div>
       <div class="company">{{experience.company}}</div>
       <div class="role">{{experience.role}}</div>
+      <div class="location">{{experience.location}}</div>
       <div class="period">{{experience.period}}</div>
     </div>
     <ul>
@@ -24,7 +25,7 @@ export default {
       experience: {
         company: "Breslaw Plumbing LLC",
         role: "Administrative Manager",
-        location: "New York, NY",
+        location: "NYC",
         website: "www.breslawplumbing.com",
         period: "start - end",
         descriptions: [

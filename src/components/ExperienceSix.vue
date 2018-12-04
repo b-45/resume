@@ -3,9 +3,8 @@
     <div>Experience</div>
     <div>
       <div class="company">{{experience.company}}</div>
-      <div class="location">{{experience.location}}</div>
-      <div class="webiste">{{experience.website}}</div>
       <div class="role">{{experience.role}}</div>
+      <div class="location">{{experience.location}}</div>
       <div class="period">{{experience.period}}</div>
     </div>
     <ul>
@@ -27,7 +26,6 @@ export default {
         company: "JPMorgan Inc",
         role: "Internal Consultant Analyst",
         location: "Newark, DE",
-        website: "www.jpmorgan.com",
         period: "start - end",
         descriptions: [
           "Responsible for gathering data, analyzing and documenting business processes andmapping departmental domain knowledge.",

@@ -3,9 +3,8 @@
     <div>Experience</div>
     <div>
       <div class="company">{{experience.company}}</div>
-      <div class="location">{{experience.location}}</div>
-      <div class="webiste">{{experience.website}}</div>
       <div class="role">{{experience.role}}</div>
+      <div class="location">{{experience.location}}</div>
       <div class="period">{{experience.period}}</div>
     </div>
     <ul>
@@ -26,8 +25,7 @@ export default {
       experience: {
         company: "Apple Inc",
         role: "Creative",
-        location: "New York, NY",
-        website: "www.apple.com",
+        location: "NYC",
         period: "start - end",
         descriptions: [
           "Designed and developed technical hands-on training to Apple customers.",

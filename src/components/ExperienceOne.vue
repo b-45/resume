@@ -4,6 +4,7 @@
     <div>
       <div class="company">{{experience.company}}</div>
       <div class="role">{{experience.role}}</div>
+      <div class="location">{{experience.location}}</div>
       <div class="period">{{experience.period}}</div>
     </div>
     <ul>
@@ -24,12 +25,12 @@ export default {
       experience: {
         company: "Almat Group",
         role: "Associate",
-        location: "New York",
-        website: "www.duggal.com",
+        location: "NYC",
         period: "start - end",
         descriptions: [
+          "Assisted managing partners with all aspects of real estate development transactions.",
           "Managed early-stage and late-stage development activity of construction projects in NYC and emerging markets.",
-          "Monitored construction to ensure compliance with contract documents, quality- workmanship and timely completion.",
+          "Monitored construction to ensure compliance with contract documents and scope of work.",
           "Developed presentations and leverage data-driven insights to direct acquisition strategy of new opportunities."
         ]
       }
