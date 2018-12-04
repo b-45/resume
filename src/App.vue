@@ -1,20 +1,24 @@
 <template>
 
   <div class="container mx-auto bg-grey-lighter">
-    <Header></Header>
-    <ExperienceOne></ExperienceOne>
+    <Header />
+    <ExperienceOne />
+    <ExperienceTwo />
+
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import ExperienceOne from "./components/ExperienceOne.vue";
+import ExperienceTwo from "./components/ExperienceTwo.vue";
 
 export default {
   name: "app",
   components: {
     Header,
-    ExperienceOne
+    ExperienceOne,
+    ExperienceTwo
   }
 };
 </script>

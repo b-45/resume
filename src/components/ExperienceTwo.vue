@@ -1,5 +1,5 @@
 <template>
-  <section class="experience-one">
+  <section class="experience-two">
     <div>Experience</div>
     <div>
       <div class="company">{{experience.company}}</div>
@@ -18,19 +18,20 @@
 
 <script>
 export default {
-  name: "ExperienceOne",
+  name: "ExperienceTwo",
   data() {
     return {
       experience: {
-        company: "Almat Group",
-        role: "Associate",
+        company: "Duggal Visual Solutions",
+        role: "Project Manager",
         location: "New York",
         website: "www.duggal.com",
         period: "start - end",
         descriptions: [
-          "Managed early-stage and late-stage development activity of construction projects in NYC and emerging markets.",
-          "Monitored construction to ensure compliance with contract documents, quality- workmanship and timely completion.",
-          "Developed presentations and leverage data-driven insights to direct acquisition strategy of new opportunities."
+          "Managed lifecycle of digital fabrications, rollout and installations of projects ($500K+) for fortune 500 brands.",
+          "Liaised and managed communications with stakeholders and engineering team(s) to tease out implementation details, and effectively manage through roadblocks",
+          "Developed data products and KPI’s for tracking team performance.",
+          "Supported and coordinated product development and marketing strategies."
         ]
       }
     };
