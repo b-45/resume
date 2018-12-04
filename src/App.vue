@@ -8,6 +8,7 @@
     <ExperienceFour />
     <ExperienceFive />
     <ExperienceSix />
+    <Education />
 
   </div>
 </template>
@@ -20,6 +21,7 @@ import ExperienceThree from "./components/ExperienceThree.vue";
 import ExperienceFour from "./components/ExperienceFour.vue";
 import ExperienceFive from "./components/ExperienceFive.vue";
 import ExperienceSix from "./components/ExperienceSix.vue";
+import Education from "./components/Education.vue";
 
 export default {
   name: "app",
@@ -29,7 +31,7 @@ export default {
     ExperienceTwo,
     ExperienceThree,
     ExperienceFour,
-    ExperienceSix
+    Education
   }
 };
 </script>
