@@ -1,7 +1,10 @@
 <template>
   <section class="header border-b-2 mb-4">
     <div>
-
+      <img
+        class="w-16 h-16 rounded-full"
+        src="https://avatars0.githubusercontent.com/u/27720835?s=460&v=4"
+      />
     </div>
     <div>
       <div class="name text-2xl font-bold mb-2">Bernard Ade</div>
