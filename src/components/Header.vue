@@ -2,7 +2,7 @@
   <section class="header border-b-2 mb-4">
     <div>
       <img
-        class="w-16 h-16 rounded-full"
+        class="block w-16 h-16 rounded-full border-2 border-grey-darker hover:border-grey-light"
         src="https://avatars0.githubusercontent.com/u/27720835?s=460&v=4"
       />
     </div>
