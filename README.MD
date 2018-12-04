@@ -1,6 +1,4 @@
-Vue version of my resume
-
----
+### My resume created with Vue.js
 
 [visit site here](https://bernardade.netlify.com/)
 
