@@ -1,13 +1,14 @@
 <template>
   <section class="certificates text-sm mb-4">
     <div class="font-semibold">Certificates</div>
-    <ul class="list-reset">
+    <div>
       <li
-        class="description leading-normal"
+        class="description leading-normal list-reset"
         v-for="cert in certificates"
         :key="cert.id"
       >{{cert}}</li>
-    </ul>
+    </div>
+
   </section>
 </template>
 
