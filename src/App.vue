@@ -1,17 +1,17 @@
 <template>
 
   <div class="min-h-screen bg-grey-light p-8">
-    <Hello></Hello>
+    <Header></Header>
   </div>
 </template>
 
 <script>
-import Hello from "./components/Hello.vue";
+import Header from "./components/Header.vue";
 
 export default {
   name: "app",
   components: {
-    Hello
+    Header
   }
 };
 </script>

@@ -1,4 +1,6 @@
-Vue version of resume
+Vue version of my resume
+
+---
 
 Issues
 
