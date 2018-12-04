@@ -6,7 +6,7 @@
       HTML,
       CSS,
       Javascript,
-      Vue.Js,
+      Vue.js,
       Python,
       Node.js,
       R,

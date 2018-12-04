@@ -29,7 +29,7 @@ export default {
         period: "Nov 2011 – Jan 2013",
         descriptions: [
           "Assisted founders with implementation approach and deployment strategy for 5-acre Greenhouse farm.",
-          "Working with local and international stakeholders to organize various activities necessary to coordinated planning, procure hardware, labor and other resources.",
+          "Working with local and international stakeholders to organize various activities necessary to coordinate planning, procure hardware, labor and other resources.",
           "Developed strategies to achieve objectives in implementation and execution of the project."
         ]
       }
