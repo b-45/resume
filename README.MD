@@ -4,14 +4,15 @@ Vue version of my resume
 
 Issues
 
-- [] Create Header
-- [] Create experience 1
-- [] Create experience 2
-- [] Create experience 3
-- [] Create experience 4
-- [] Create experience 4
-- [] Create experience 4
-- [] Education
-- [] Skills
-- [] Certificates
-- [] Portfolio
+- [x] Create Header
+- [x] Create experience 1
+- [x] Create experience 2
+- [x] Create experience 3
+- [x] Create experience 4
+- [x] Create experience 4
+- [x] Create experience 4
+- [x] Education
+- [x] Skills
+- [x] Certificates
+- [x] Portfolio
+- [ ] Deploy to Netlify

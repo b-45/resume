@@ -1,18 +1,19 @@
 <template>
+  <div id="app">
+    <div class="container mx-auto max-w-lg shadow bg-white p-8 text-grey-darkest">
+      <Header />
+      <ExperienceOne />
+      <ExperienceTwo />
+      <ExperienceThree />
+      <ExperienceFour />
+      <ExperienceFive />
+      <ExperienceSix />
+      <Education />
+      <Skills />
+      <Certificates />
+      <Portfolio />
 
-  <div class="container mx-auto bg-grey-lighter">
-    <Header />
-    <ExperienceOne />
-    <ExperienceTwo />
-    <ExperienceThree />
-    <ExperienceFour />
-    <ExperienceFive />
-    <ExperienceSix />
-    <Education />
-    <Certificates />
-    <Skills />
-    <Portfolio />
-
+    </div>
   </div>
 </template>
 
@@ -48,4 +49,9 @@ export default {
 </script>
 
 <style>
+#app {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: whitesmoke;
+}
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <section class="certificates">
-    <div>Certificates</div>
-    <ul>
+  <section class="certificates text-sm mb-4">
+    <div class="font-semibold">Certificates</div>
+    <ul class="list-reset">
       <li
-        class="description"
+        class="description leading-normal"
         v-for="cert in certificates"
         :key="cert.id"
       >{{cert}}</li>
@@ -27,4 +27,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+</style>
 

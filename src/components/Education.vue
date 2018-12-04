@@ -1,10 +1,17 @@
 <template>
-  <section class="Education">
-    <div>Education</div>
+  <section class="Education text-sm mb-4">
+    <div class="font-semibold">Education</div>
     <div>
       <div class="company">Bachelof of Arts - Business Administration</div>
-      <div class="period">Start - End</div>
+      <div class="school">Lincoln University - Oxford, Pennsylvania</div>
     </div>
-    <div class="school">Lincoln University - Oxford, Pennsylvania</div>
   </section>
 </template>
+
+
+<style scoped>
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+</style>

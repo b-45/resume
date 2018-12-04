@@ -1,19 +1,21 @@
 <template>
-  <section class="experience-one">
-    <div>Experience</div>
-    <div>
-      <div class="company">{{experience.company}}</div>
-      <div class="role">{{experience.role}}</div>
+
+  <section class="experience-one mb-4 text-sm">
+    <div class="font-semibold">Experience</div>
+    <div class="flex flex-wrap">
+      <div class="company font-semibold mr-2">{{experience.company}} - </div>
+      <div class="role mr-2 font-thin">{{experience.role}} -</div>
       <div class="location">{{experience.location}}</div>
-      <div class="period">{{experience.period}}</div>
+      <div class="period ml-auto font-thin">{{experience.period}}</div>
+      <ul class="mt-1">
+        <li
+          class="description leading-normal"
+          v-for="n in experience.descriptions"
+          :key="n.company"
+        >{{n}}</li>
+      </ul>
     </div>
-    <ul>
-      <li
-        class="description"
-        v-for="n in experience.descriptions"
-        :key="n.company"
-      >{{n}}</li>
-    </ul>
+
   </section>
 </template>
 
@@ -26,7 +28,7 @@ export default {
         company: "Almat Group",
         role: "Associate",
         location: "NYC",
-        period: "start - end",
+        period: "Nov 2015 – Present",
         descriptions: [
           "Assisted managing partners with all aspects of real estate development transactions.",
           "Managed early-stage and late-stage development activity of construction projects in NYC and emerging markets.",
@@ -39,3 +41,9 @@ export default {
 };
 </script>
 
+<style scoped>
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+</style>

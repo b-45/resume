@@ -1,19 +1,19 @@
 <template>
-  <section class="experience-six">
-    <div>Experience</div>
-    <div>
-      <div class="company">{{experience.company}}</div>
-      <div class="role">{{experience.role}}</div>
+  <section class="experience-six mb-4 text-sm">
+    <div></div>
+    <div class="flex flex-wrap">
+      <div class="company font-semibold mr-2">{{experience.company}} -</div>
+      <div class="role mr-2 font-thin">{{experience.role}} -</div>
       <div class="location">{{experience.location}}</div>
-      <div class="period">{{experience.period}}</div>
+      <div class="period ml-auto font-thin">{{experience.period}}</div>
+      <ul class="mt-1">
+        <li
+          class="description leading-normal"
+          v-for="n in experience.descriptions"
+          :key="n.company"
+        >{{n}}</li>
+      </ul>
     </div>
-    <ul>
-      <li
-        class="description"
-        v-for="n in experience.descriptions"
-        :key="n.company"
-      >{{n}}</li>
-    </ul>
   </section>
 </template>
 
@@ -26,7 +26,7 @@ export default {
         company: "JPMorgan Inc",
         role: "Internal Consultant Analyst",
         location: "Newark, DE",
-        period: "start - end",
+        period: "Mar 2000-Nov 2003",
         descriptions: [
           "Responsible for gathering data, analyzing and documenting business processes andmapping departmental domain knowledge.",
           "Collaborated with department stakeholders to identify changes to processes, systems,technology and incorporate change management activities into all aspects of projects usingsix sigma methodologies.",
@@ -38,3 +38,10 @@ export default {
 };
 </script>
 
+
+<style scoped>
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+</style>
