@@ -2,6 +2,8 @@ Vue version of my resume
 
 ---
 
+[visit site here](https://bernardade.netlify.com/)
+
 Issues
 
 - [x] Create Header
@@ -15,4 +17,4 @@ Issues
 - [x] Skills
 - [x] Certificates
 - [x] Portfolio
-- [ ] Deploy to Netlify
+- [x] Deploy to Netlify
