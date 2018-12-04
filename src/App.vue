@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container mx-auto max-w-lg shadow bg-white p-8 text-grey-darkest">
+    <div class="container mx-auto max-w-lg shadow bg-white p-8 text-grey-darkest antialiased">
       <Header />
       <ExperienceOne />
       <ExperienceTwo />
