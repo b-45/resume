@@ -1,6 +1,6 @@
 <template>
 
-  <div class="min-h-screen bg-grey-light p-8">
+  <div class="container mx-auto bg-grey-lighter">
     <Header></Header>
   </div>
 </template>
