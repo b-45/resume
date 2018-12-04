@@ -11,6 +11,7 @@
     <Education />
     <Certificates />
     <Skills />
+    <Portfolio />
 
   </div>
 </template>
@@ -26,6 +27,7 @@ import ExperienceSix from "./components/ExperienceSix.vue";
 import Education from "./components/Education.vue";
 import Certificates from "./components/Certificates.vue";
 import Skills from "./components/Skills.vue";
+import Portfolio from "./components/Portfolio.vue";
 
 export default {
   name: "app",
@@ -39,7 +41,8 @@ export default {
     ExperienceSix,
     Education,
     Certificates,
-    Skills
+    Skills,
+    Portfolio
   }
 };
 </script>
