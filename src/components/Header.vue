@@ -1,11 +1,13 @@
 <template>
   <section class="header border-b-2 mb-4">
-    <div></div>
+    <div>
+
+    </div>
     <div>
       <div class="name text-2xl font-bold mb-2">Bernard Ade</div>
-      <div class="title text-sm font-semibold mb-2">Business Engineer</div>
-      <div class="items flex text-xs">
-        <div class="email mr-2">
+      <div class="title text-sm font-semibold mb-4">Business Engineer</div>
+      <div class="items flex flex-wrap text-xs">
+        <div class="email mr-6">
           <font-awesome-icon
             icon="envelope-square"
             class="mr-1"
@@ -16,7 +18,7 @@
           >bernard11ade@gmail.com
           </a>
         </div>
-        <div class="website mr-2">
+        <div class="website mr-6">
           <font-awesome-icon
             icon="link"
             class="mr-1"
@@ -26,7 +28,7 @@
             class="no-underline text-blue-dark"
           >www.b-45.com</a>
         </div>
-        <div class="location mb-2">
+        <div class="location mb-3">
           <font-awesome-icon
             icon="location-arrow"
             class="mr-1"
@@ -44,6 +46,7 @@
 section {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
 }
 </style>
  

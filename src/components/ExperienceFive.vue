@@ -4,7 +4,7 @@
     <div class="flex flex-wrap">
       <div class="company  font-semibold mr-2">{{experience.company}} -</div>
       <div class="role  mr-2 font-thin">{{experience.role}} -</div>
-      <div class="location">{{experience.location}}</div>
+      <div class="location font-thin">{{experience.location}}</div>
       <div class="period ml-auto font-thin">{{experience.period}}</div>
       <ul class="mt-1">
         <li
@@ -42,5 +42,6 @@ export default {
 section {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
 }
 </style>
