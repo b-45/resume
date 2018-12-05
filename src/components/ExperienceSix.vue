@@ -28,7 +28,7 @@ export default {
         location: "Newark, DE",
         period: "Mar 2000-Nov 2003",
         descriptions: [
-          "Responsible for gathering data, analyzing and documenting business processes andmapping departmental domain knowledge.",
+          "Responsible for gathering data, analyzing and documenting business processes and mapping departmental domain knowledge.",
           "Collaborated with department stakeholders to identify changes to processes, systems, technology and incorporate change management activities into all aspects of projects using six-sigma methodologies.",
           "Created training programs & communication plans for seamless transition of new hires into departmental functions and processes."
         ]
